@@ -1,12 +1,26 @@
 Package: smeltr
-Title: What the Package Does (One Line, Title Case)
+Title: State Machine for Extracting the Layout of Tables in R
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(
+        utils::person(
+            given = "Ben",
+            family = "Taft",
+            email = "ben.taft@career2cradle.org",
+            role = c("aut", "cre")
+        ),
+        utils::person(
+            given = "Higher Expectations for Racine County",
+            role = "cph"
+        )
+    )
+Description: Read through amateurish spreadsheets and figure out how to tidy
+    them.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://higherx4racine.github.io/smeltr/
