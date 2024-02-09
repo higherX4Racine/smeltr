@@ -1,12 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# smeltr <img src="man/figures/logo.jpg" align="right" height="57" alt="" />
+# smeltr <a href="https://commons.wikimedia.org/wiki/File:Pond_smelt_illustration.jpg"><img src="man/figures/logo.jpg" align="right" height="57" alt="Surf_Smelt,_Pond_smelt.jpg: Drawing by H. L. Todd, NOAA&#039;s Historic Fisheries Collection derivative work: ManfromButtonwillow, Public domain, via Wikimedia Commons"/></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of smeltr is to …
+Read through amateurish spreadsheets and figure out how to tidy them.
 
 ## Installation
 

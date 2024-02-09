@@ -1,5 +1,5 @@
 Package: smeltr
-Title: State Machine for Extracting the Layout of Tables in R
+Title: State Machines for Extracting the Layout of Tables in R
 Version: 0.0.0.9000
 Authors@R: 
     c(
