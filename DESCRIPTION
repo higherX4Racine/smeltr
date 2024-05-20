@@ -27,3 +27,9 @@ URL: https://higherx4racine.github.io/smeltr/
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    dplyr,
+    purrr,
+    readxl,
+    rlang,
+    tidyr
