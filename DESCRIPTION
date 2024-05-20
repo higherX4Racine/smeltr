@@ -24,3 +24,12 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://higherx4racine.github.io/smeltr/
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr,
+    purrr,
+    readxl,
+    rlang,
+    tidyr

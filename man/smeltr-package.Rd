@@ -4,7 +4,7 @@
 \name{smeltr-package}
 \alias{smeltr}
 \alias{smeltr-package}
-\title{smeltr: State Machine for Extracting the Layout of Tables in R}
+\title{smeltr: State Machines for Extracting the Layout of Tables in R}
 \description{
 Read through amateurish spreadsheets and figure out how to tidy them.
 }
