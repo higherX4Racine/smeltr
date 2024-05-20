@@ -1,6 +1,6 @@
 #' Pull header information from every sheet in a workbook
-#'
-#' @param .spreadsheet the full path to the workbook file
+#' 
+#' @inheritParams extract_headers_from_sheet
 #' @param .nrows the number of rows to read as headers
 #'
 #' @return a tibble with 2 + `.nrows` columns
