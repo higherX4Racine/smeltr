@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Read through amateurish spreadsheets and figure out how to tidy them.
+Build algorithms for tidying spreadsheets with complicated layouts.
 
 ## Installation
 
