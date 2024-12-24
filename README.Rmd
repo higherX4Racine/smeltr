@@ -32,11 +32,27 @@ devtools::install_github("higherX4Racine/smeltr")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Many spreadsheets come with nested headings and wide, rather than tidy, layouts.
+For example, the Federal government makes monthly reports about
+[FAFSA® Completion by High School and Public School District](https://studentaid.gov/data-center/student/application-volume/fafsa-completion-high-school).
+These spreadsheets have many complicated rows of headers, as you can see below.
+
+![The top rows of a Federal spreadsheet about FAFSA completion in WY](man/figures/README-fafsa-headers-wy-2024.png)
 
 ```{r}
-#| label: example
-library(smeltr)
-## basic example code
-dummy()
+#| label: extract-wyoming-fafsa-headers
+
+"extdata" |>
+    system.file("WY.xls",
+                package = "smeltr") |>
+    smeltr::extract_headers_from_sheet(.sheet = "WY School Level Data",
+                                       .nrows = 4) |>
+    dplyr::select(-2) |>
+    dplyr::mutate(
+        dplyr::across(tidyselect::starts_with("Row"),
+                      \(.)stringr::str_replace_all(., "\\n", "; "))
+    ) |>
+    tidyr::fill(tidyselect::starts_with("Row"), .direction = "down") |>
+    knitr::kable()
 ```
+

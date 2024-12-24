@@ -6,7 +6,7 @@
 \alias{smeltr-package}
 \title{smeltr: State Machines for Extracting the Layout of Tables in R}
 \description{
-Read through amateurish spreadsheets and figure out how to tidy them.
+Build algorithms for tidying spreadsheets with complicated layouts.
 }
 \seealso{
 Useful links:

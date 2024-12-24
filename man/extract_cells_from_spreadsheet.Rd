@@ -7,15 +7,15 @@
 extract_cells_from_spreadsheet(.spreadsheet)
 }
 \arguments{
-\item{.spreadsheet}{the full path to the workbook file}
+\item{.spreadsheet}{\verb{<chr>} the full path to the workbook file}
 }
 \value{
 a tibble with 4 columns
 \describe{
-\item{Sheet}{\if{html}{\out{<chr>}} The sheet that the cell came from}
-\item{Row}{\if{html}{\out{<int>}} The row number of the cell}
-\item{Column}{\if{html}{\out{<int>}} The column number of the cell}
-\item{Value}{\if{html}{\out{<chr>}} The literal contents of the cell}
+\item{Sheet}{\verb{<chr>} The sheet that the cell came from}
+\item{Row}{\verb{<int>} The row number of the cell}
+\item{Column}{\verb{<int>} The column number of the cell}
+\item{Value}{\verb{<chr>} The literal contents of the cell}
 }
 }
 \description{

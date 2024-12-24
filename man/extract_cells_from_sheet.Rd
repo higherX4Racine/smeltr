@@ -7,16 +7,16 @@
 extract_cells_from_sheet(.spreadsheet, .sheet)
 }
 \arguments{
-\item{.spreadsheet}{the full path to the workbook file}
+\item{.spreadsheet}{\verb{<chr>} the full path to the workbook file}
 
-\item{.sheet}{the name or number of the sheet to parse}
+\item{.sheet}{\verb{<chr|int>} the name or number of the sheet to parse}
 }
 \value{
 a tibble with 3 columns
 \describe{
-\item{Row}{\if{html}{\out{<int>}} The row number of the cell}
-\item{Column}{\if{html}{\out{<int>}} The column number of the cell}
-\item{Value}{\if{html}{\out{<chr>}} The literal contents of the cell}
+\item{Row}{\verb{<int>} The row number of the cell}
+\item{Column}{\verb{<int>} The column number of the cell}
+\item{Value}{\verb{<chr>} The literal contents of the cell}
 }
 }
 \description{
