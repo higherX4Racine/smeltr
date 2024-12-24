@@ -1,36 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/404.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/index.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/extract_cells_from_sheet.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/extract_cells_from_spreadsheet.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/extract_headers_from_sheet.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/extract_headers_from_spreadsheet.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://higherx4racine.github.io/smeltr/reference/smeltr-package.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://higherx4racine.github.io/smeltr/404.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/LICENSE-text.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/LICENSE.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/authors.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/index.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/extract_cells_from_sheet.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/extract_cells_from_spreadsheet.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/extract_headers_from_sheet.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/extract_headers_from_spreadsheet.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/index.html</loc></url>
+<url><loc>https://higherx4racine.github.io/smeltr/reference/smeltr-package.html</loc></url>
 </urlset>
+
