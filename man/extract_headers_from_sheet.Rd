@@ -7,17 +7,17 @@
 extract_headers_from_sheet(.spreadsheet, .sheet, .nrows)
 }
 \arguments{
-\item{.spreadsheet}{the full path to the workbook file}
+\item{.spreadsheet}{\verb{<chr>} the full path to the workbook file}
 
-\item{.sheet}{the name or number of the sheet to parse}
+\item{.sheet}{\verb{<chr|int>} the name or number of the sheet to parse}
 
-\item{.nrows}{the number of rows to investigate as headers}
+\item{.nrows}{\verb{<int>} the number of rows to investigate as headers}
 }
 \value{
-a tibble with 1 + \code{.nrows} columns.
+\verb{<obj>} a tibble with 1 + \code{.nrows} columns.
 \describe{
-\item{Column}{\if{html}{\out{<int>}} which column the value came from}
-\item{Row[i]}{\if{html}{\out{<chr>}} the header from row \code{i} in this Column.}
+\item{Column}{\verb{<int>} which column the value came from}
+\item{Row\verb{[i]}}{\verb{<chr>} the header from row \code{i} in this Column.}
 }
 }
 \description{

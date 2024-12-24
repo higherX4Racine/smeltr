@@ -4,9 +4,9 @@
 #'
 #' @return a tibble with 3 columns
 #' \describe{
-#'   \item{Row}{<int> The row number of the cell}
-#'   \item{Column}{<int> The column number of the cell}
-#'   \item{Value}{<chr> The literal contents of the cell}
+#'   \item{Row}{`<int>` The row number of the cell}
+#'   \item{Column}{`<int>` The column number of the cell}
+#'   \item{Value}{`<chr>` The literal contents of the cell}
 #' }
 #' @export
 extract_cells_from_sheet <- function(.spreadsheet, .sheet){
